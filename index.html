@@ -1,0 +1,649 @@
+<html>
+<head>
+<meta charset="utf-8">
+<title>Main</title>
+<style>
+body {
+	margin: 0;
+}
+
+.all {
+	width: 937px;
+	margin-left: auto;
+	margin-right: auto;
+	letter-spacing: 1px;
+	position: relative;
+	top: 25px;
+}
+
+header {
+	width: 100%;
+	height: 206px;
+	background: #f2f1f1;
+}
+
+header p {
+	font-size: 18px;
+	margin-top: -115px;
+	margin-left: 200px;
+	position: relative;
+	top: 0px;
+	z-index: 1000;
+}
+
+header p span {
+	border: 1px solid #c5c5c5;
+	background: #f9f8f8;
+	padding: 5px 16px;
+	margin: 0 8px;
+	font-weight: bold;
+	– webkit-border-radius: 1px;
+	– moz-border-radius: 1px;
+	border-radius: 1px;
+}
+
+header a {
+	color: #555454;
+	text-decoration: none;
+}
+
+header .arrow {
+	position: relative;
+	left: 6px;
+	top: 8px;
+	z-index: 1000;
+}
+
+.logo {
+	position: relative;
+	top: 10px;
+}
+
+.inf {
+	margin-top: 40px;
+	font-size: 14px;
+	color: #646363;
+	width: 450px;
+	margin-left: 200px;
+	z-index: 1000;
+}
+
+.numb img {
+	margin-top: -142px;
+	margin-left: 440px;
+}
+
+.numb1 {
+	font-size: 12px;
+	margin-top: -145px;
+	margin-left: 462px;
+	color: #171717;
+}
+
+.numb2 {
+	font-size: 24px;
+	margin-left: 470px;
+	font-weight: bold;
+	color: #353535;
+}
+
+.contacts {
+	text-align: right;
+	font-size: 12px;
+	margin-top: -125px;
+	position: relative;
+	left: 35px;
+}
+
+.contacts span {
+	font-weight: bold;
+}
+
+section {				/*start content*/
+	width: 937px;
+	margin-left: 205px;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.col1 {
+	width: 480px;
+}
+
+.val {
+	width: 262px;
+	height: 50px;
+	background: #61d658;
+	margin-top: 20px;
+}
+
+.val p {
+	color: #fefcfc;
+	text-align: center;
+	position: relative;
+	top: 15px;
+}
+
+.line {
+	width: 685px;
+	height: 3px;
+	background: #f2f1f1;
+	position: relative;
+	top: -28px;
+	left: 287px;
+}
+
+.icons {                        /*icons*/
+	position: relative;
+}
+
+.icon1 {					
+	float: left;
+	margin-top: 30px;
+	margin-left: 55px;
+	position: absolute;
+	left: 0px;
+}
+
+.ticon1 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-left: -12px;
+	position: relative;
+	z-index: 1000;
+}
+
+.icon2 {
+	margin-top: 30px;
+	margin-left: 80px;
+	position: absolute;
+	left: 170px;
+}
+
+.ticon2 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: -5px;
+	position: absolute;
+}
+
+.ticon2 a {
+}
+
+.icon3 {
+	float: left;
+	margin-top: 30px;
+	margin-left: 90px;
+	position: absolute;
+	left: 350px;
+}
+
+.ticon3 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+}
+
+.icon4 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 90px;
+	position: absolute;
+	left: 550px;
+}
+
+.ticon4 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: -20px;
+}
+
+.icon5 {
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	position: relative;
+	left: 50px;
+	position: absolute;
+	left: 820px;
+}
+
+.ticon5 {
+	text-align: center;
+	font-weight: bold;
+	margin-top: 20px;
+	margin-left: -20px;
+}
+
+.cont {
+	position: relative;
+	top: 100px;
+}
+
+.invest { 				/*bpt investments*/
+	float: left;
+	width: 470px;
+	height: 47px;
+	background: #f2f1f1;
+	font-size: 24px;
+	position: relative;
+	top: 45px;
+}
+
+.invest p {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.invest p mark {
+	background: #f2f1f1;
+	color: #cb2026;
+}
+
+.bridge {
+	position: relative;
+	top: 70px;
+	left: -40px;
+}
+
+.text1 {
+	float: left;
+	margin-top: 70px;
+}
+
+.list1 {
+	margin-top: 200px;
+	margin-left: -20px;
+	position: relative;
+	top: -80px;
+}
+
+.line1 {
+	width: 470px;
+	height: 5px;
+	background: #f2f1f1;
+	margin-top: -80px;
+}
+
+.advise-main { 				/*bpt legal adviser*/
+	float: left;
+	width: 470px;
+	height: 47px;
+	background: #f2f1f1;
+	font-size: 24px;
+	position: relative;
+	top: 45px;
+}
+
+.advise-main p {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.advise-main p mark {
+	background: #f2f1f1;
+	color: #cb2026;
+}
+
+.advise {
+	position: relative;
+	top: 70px;
+	left: -40px;
+}
+
+.text2 {
+	float: left;
+	margin-top: 70px;
+}
+
+.list2 {
+	margin-top: 200px;
+	margin-left: -20px;
+	position: relative;
+	top: -80px;
+}
+
+.line2 {
+	width: 470px;
+	height: 5px;
+	background: #f2f1f1;
+	margin-top: -80px;
+}
+
+.trans-main { 				/*bpt translation*/
+	float: left;
+	width: 470px;
+	height: 47px;
+	background: #f2f1f1;
+	font-size: 24px;
+	position: relative;
+	top: 45px;
+}
+
+.trans-main p {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.trans-main p mark {
+	background: #f2f1f1;
+	color: #cb2026;
+}
+
+.trans {
+	position: relative;
+	top: 70px;
+	left: -40px;
+}
+
+.text3 {
+	float: left;
+	margin-top: 70px;
+}
+
+.list3 {
+	margin-top: 175px;
+	margin-left: -20px;
+	position: relative;
+	top: -90px;
+
+}
+
+.sub-list1 {
+	position: relative;
+	top: -142px;
+	left: 92px;
+}
+
+.sub-list2 {
+	position: relative;
+	top: -194px;
+	left: 200px;
+}
+
+.line3 {
+	width: 470px;
+	height: 5px;
+	background: #f2f1f1;
+	margin-top: -180px;
+}
+
+.col2 {
+	float: left;
+	width: 470px;
+	margin-top: -1200px;
+	margin-left: 500px;
+}
+
+.main-conf { 				/*bpt conference*/
+	float: right;
+	width: 470px;
+	height: 47px;
+	background: #f2f1f1;
+	font-size: 24px;
+	position: relative;
+	top: 45px;
+}
+
+.main-conf p {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.main-conf p mark {
+	background: #f2f1f1;
+	color: #cb2026;
+}
+
+.conf {
+	position: relative;
+	top: 70px;
+	left: -40px;
+}
+
+.text4 {
+	float: left;
+	margin-top: 70px;
+}
+
+.list4 {
+	margin-top: 200px;
+	margin-left: -20px;
+	position: relative;
+	top: -80px;
+}
+
+.line4 {
+	width: 470px;
+	height: 5px;
+	background: #f2f1f1;
+	margin-top: -80px;
+}
+
+.main-pass { 				/*bpt immigration*/
+	float: right;
+	width: 470px;
+	height: 47px;
+	background: #f2f1f1;
+	font-size: 24px;
+	position: relative;
+	top: 45px;
+}
+
+.main-pass p {
+	margin-top: 10px;
+	margin-left: 10px;
+}
+
+.main-pass p mark {
+	background: #f2f1f1;
+	color: #cb2026;
+}
+
+.pass {
+	position: relative;
+	top: 70px;
+	left: -40px;
+}
+
+.text5 {
+	float: left;
+	margin-top: 70px;
+}
+
+.list5 {
+	margin-top: 220px;
+	margin-left: -20px;
+}
+
+.line5 {
+	width: 470px;
+	height: 5px;
+	background: #f2f1f1;
+}
+
+footer {
+	width: 100%;
+	height: 84px;
+	background: #f7f7f7;
+	margin-top: 70px;
+	position: relative;
+	top: 100px;
+}
+
+footer p {
+	font-size: 15px;
+	margin-left: 205px;
+	position: relative;
+	top: 30px;
+}
+</style>
+</head>
+<body>
+<header>
+<div class="all">
+
+	<img class="logo" src="https://pp.vk.me/c627918/v627918787/43181/cqIRq64v1TM.jpg" alt="logo" width="144px" height="121px">
+
+	<p><a href="#ua">ua</a> 
+		<span><a href="#ru">ru</a></span> 
+		<a href="#en">en</a> 
+		<a href="#arrow"><img class="arrow" src="https://pp.vk.me/c627918/v627918787/4317a/2untKNwEPG8.jpg"></a>
+	</p>
+
+	<p class="inf">Наша работа заключается в содействии владельцам успешных<br> компаний в повышении эффективности бизнеса, увеличении его<br> стоимости и привлечении инвестиций, проведение семинаров и<br> тренингов.</p>
+
+	<div class="numb">
+		<img src="https://pp.vk.me/c627918/v627918787/4318b/lgr3rdLTj9c.jpg" width="24px" height="26px">
+		<div class="numb1">+38 (044)</div>
+		<div class="numb2">223-65-34</div>
+	</div>
+
+	<div class="contacts">
+		<span>E-mail:</span><br>info@bpt-group.com<br><br>
+		<span>Skype:</span><br>consult.bpt.offshore<br><br>
+		<span>По вопросам сертификации:</span><br>  38 (044) 492-69-90, 38 (067) 829-01-49
+	</div>
+</div>
+</header>
+
+<section>
+	<div class="val">
+		<p>ЦЕННОСТИ КОМПАНИИ</p>
+	</div>
+	<div class="line"></div>
+	<div class="icons">
+	<figure class="icon1">
+		<a href="#inv"><img src="https://pp.vk.me/c629405/v629405787/1efa3/RZL53H5zdng.jpg" width="56px" height="56px"></a>
+		<figcaption class="ticon1">BPT<br> Investments</figcation>
+	</figure>
+
+	<figure class="icon2">
+		<a href="#conf" id="ic"><img src="https://pp.vk.me/c629405/v629405787/1efaa/NvwjNCPLPW8.jpg" width="68px" height="50px"></a>
+		<figcaption class="ticon2">BPT<br> Conference</figcation>
+	</figure>
+
+	<figure class="icon3">
+		<a href="#trans"><img src="https://pp.vk.me/c629405/v629405787/1efb3/9H4szuR5rkc.jpg" width="85px" height="47px"></a>
+		<figcaption class="ticon3">BPT<br> Translation</figcation>
+	</figure>
+
+	<figure class="icon4">
+		<a href="#legaladv"><img src="https://pp.vk.me/c629405/v629405787/1efbc/BUMrnO8pqbM.jpg" width="60px" height="55px"></a>
+		<figcaption class="ticon4">BPT<br> Legal Advisers</figcation>
+	</figure>
+
+	<figure class="icon5">
+		<a href="#immig"><img src="https://pp.vk.me/c629405/v629405787/1efc3/VhD-NaO9Klc.jpg" width="55px" height="55px"></a>
+		<figcaption class="ticon5">BPT<br> Immigration</figcation>
+	</figure>
+</div>
+
+	<div class="cont">
+	<div class="col1">
+	<div class="invest"><p><mark>BPT</mark> INVESTMENTS</p></div>
+	<figure class="bridge">
+		<img src="https://pp.vk.me/c629405/v629405787/1ef95/ABj2L__dHk4.jpg" alt="bridge" width="470px" height="119px">
+	</figure>
+
+	<p class="text1">Основное направление нашей компании - привлечение инвестиций, юридическое, консалтинговое обеспечение инвестиционного процесса:</p><br>
+	<ul class="list1">
+		<li>Привлечение инвестиций в акционерный капитал</li>
+		<li>Помощь в получении кредитов в зарубежных банках</li>
+		<li>Сопровожение покупки или продажи действующего 
+		бизнеса</li>
+		<li>Инвестиционная оценка бизнеса</li>
+	</ul>
+	<div class="line1"></div>
+
+	<div class="advise-main"><p><mark>BPT</mark> LEGAL ADVISERS</p>   </div>
+	<figure class="advise">
+		<img src="https://pp.vk.me/c629405/v629405787/1ef8d/pYr36_Ynwgg.jpg" alt="advise" width="470px" height="119px">
+	</figure>
+
+	<p class="text2">Разрабатываем оффшорные схемы владения, помогаем открыть счет в иностранном банке. Мы оказываем следующие услуги:</p><br>
+	<ul class="list2">
+		<li>Регистрация оффшорных компаний</li>
+		<li>Регистрация холдингов</li>
+		<li>Регистрация дочерних компаний</li>
+		<li>Регистрация представительств</li>
+		<li>Регистрация торговых марок</li>
+		<li>Регистрация инвестиционных фондов</li>
+	</ul>
+	<div class="line2"></div>
+
+	<div class="trans-main"><p><mark>BPT</mark> LEGAL ADVISERS</p>   </div>
+	<figure class="trans">
+		<img src="https://pp.vk.me/c627918/v627918787/43173/pwuI2lEN8Xo.jpg" alt="tast" width="470px" height="119px">
+	</figure>
+
+	<p class="text3">Общее описание целей и услуг раздела:</p><br>
+	<ul class="list3">
+		<li>Миссия</li>
+		<li>Услуги</li>
+	</ul>
+
+	<ul class="sub-list1">
+		<li>Языки</li>
+		<li>Цены</li>
+	</ul>
+
+	<ul class="sub-list2">
+		<li>Контакты</li>
+	</ul>
+	<div class="line3"></div>
+	</div>
+
+	<div class="col2">
+		<div class="main-conf"><p><mark>BPT</mark> CONFERENCE</p>     </div>
+	<figure class="conf">
+		<img src="https://pp.vk.me/c629405/v629405787/1ef9c/gDiBCneV9a8.jpg" alt="conf" width="470px" height="119px">
+	</figure>
+
+	<p class="text4">Специализируется на проведении и организации семинаров, конференций, тренингов личностного роста и бизнес-тренингов:</p><br>
+	<ul class="list4">
+		<li>Организация и проведение семинаров</li>
+		<li>Организация и проведение открытых и корпоративных бизнес-тренингов</li>
+		<li>Предоставление маркетинговых услуг</li>
+		<li>Проведение социологического исследования</li>
+		<li>Услуги Call Center</li>
+		<li>Проведение PR акций</li>
+		<li>Подготовка материалов для СМИ и пресс-релизов</li>
+	</ul>
+	<div class="line4"></div>
+
+		<div class="main-pass"><p><mark>BPT</mark> IMMIGRATION</p>    </div>
+	<figure class="pass">
+		<img src="https://pp.vk.me/c629405/v629405787/1efca/O17ZU8AWRUI.jpg" alt="pass" width="470px" height="119px">
+	</figure>
+
+	<p class="text5">Является структурным подразделением BPT GROUP и содействует скорейшему решению ваших вопросов, связанных с получением ВНЖ в странах ЕС и других развитых странах мира.
+	<br><br>
+	Специализируется на сопровождении клиентов, желающих получить ВНЖ (или гражданство) на экономических основаниях (инвестирование в экономику страны или открытие бизнеса). Мы помогаем на следующих этапах получения ВНЖ:</p><br>
+	<ul class="list5">
+		<li>Выбор страны в соответствии с целями и возможностями</li>
+		<li>Проработка плана/легенды, подходящего для той или иной страны</li>
+		<li>Выбор объектов инвестирования</li>
+		<li>Сбор и подготовка необходимых документов</li>
+		<li>Сопровождение процесса инвестирования</li>
+		<li>Подача документов в государственные органы интересуемой страны</li>
+		<li>Прохождение процедур подтверждения основания для получения ВНЖ</li>
+	</ul>
+	<div class="line5"></div>
+
+	</div>
+	</div>
+</section>
+
+<footer>
+	<p>© 1999-2015 BPT-GROUP</p>
+</footer>
+</body>
+
+</html>
